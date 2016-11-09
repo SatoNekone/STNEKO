@@ -1,0 +1,302 @@
+@font-face {
+font-family:Montserrat;
+src: url("Montserrat-Light.otf") format("opentype");
+}
+@font-face {
+font-family: JhengHei;
+src:local("msjh.ttf") format("turetype");
+}
+html, body, div, span,p{
+  margin: 0;
+	padding: 0;
+	border: 0;
+  font-family:Arial Black;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+body{
+  background-color: #FdFdFd;
+}
+.clear:after{
+content:"";
+display:block;
+clear:both;
+}
+.mouse {
+    cursor:pointer;
+}
+.borderon{
+  box-shadow: inset 0 0 0 2px #2098D1, 0 0 1px transparent;
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.container{
+max-width: 1280px;
+padding-left: 46px;
+padding-right: 46px;
+margin: 0 auto;
+}
+.headbar{
+height:46px;
+width: 100%;
+background-color:#050505;
+font-family:Montserrat;
+
+}
+.headbar >img ,.headbar>p{
+float:right;
+margin: 7px 12px 7px 11px;
+
+}
+.headbar >img{
+  border: 0.5px solid #a0a0a0;
+  border-radius: 3px;
+}
+.headbar > p{
+float:right;
+margin: 15px 10px 15px 10px;
+color: #ffffff;
+background-color: #050505;
+font-family:Montserrat;
+}
+.site-nav{
+height: 70px;
+width: 100%;
+}
+.site-nav  h1{
+font-family:Montserrat;
+padding: 22px;
+float:left;
+width: 40%;
+}
+.headbox > a{
+  font-family:Montserrat;
+  padding:15px 15px 15px 15px;
+  font-size: 15px;
+  float:left;
+  margin: 10px 7px 0px 7px;
+   border-radius: 12px;
+   text-decoration:none;
+   color:black;
+}
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+.site-nav a {
+	display: block;
+  font-family:Montserrat;
+    padding:15px 15px 15px 15px;
+  font-size: 15px;
+  margin: 10px 7px 10px 7px;
+   border-radius: 12px;
+   text-decoration:none;
+   color:black;
+}
+.site-nav li:hover > a {
+}
+.site-nav li ul {
+	position: absolute;
+	background-color: #FdFdFd;;
+	display: none;
+  border: 1px solid #2098D1;
+  border-radius: 5px;
+}
+.site-nav li:hover ul {
+	display: block;
+}
+.site-nav li li {
+	float: none;
+	margin-right: 0;
+}
+.site-nav li li a:hover {
+}
+.wrapper {
+background-image:url(../images/banner.jpg);
+ background-size:cover;
+ background-color:#000000;
+ width: 100%;
+ height: 300px;
+ display: block;
+ /*background-position: center center;*/
+ background-attachment: fixed;
+  }
+.wrapperShort {
+   height: 200px;
+    }
+.wrapper > h5{
+color:#ffffff;
+font-family:Montserrat;
+font-size:20px;
+position:relative;
+top:50%;
+text-align: center;
+}
+.vis{
+background-image:url(../images/banner.jpg);
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+background-color: #050505;
+height: 70px;
+width: 100%;
+}
+.footer  p{
+  font-family:Montserrat;
+  color:#ffffff;
+  background-color: #050505;
+  margin: 15px auto;
+  padding-top:20px;
+  text-align: center;
+}
+/*=======================================================*/
+/*=======================================================*/
+/*=======================================================*/
+.aboutdiv{
+background-color: #FdFdFd;
+c
+background-attachment: fixed;
+background-position: 50% 0;
+display: block;
+padding: 30px 0px 30px 0px;
+border-radius: 12px;
+margin: 30px auto 30px auto;
+width: 100%;
+}
+.aboutdiv h1{
+  font-family:Montserrat;
+  margin: 30px auto ;
+  font-size: 30px;
+  text-align:center;
+}
+.aboutdiv p{
+margin:15px auto ;
+text-align:center;
+font-family:Microsoft JhengHei;
+}
+#catlogo{
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+
+}
+.workselect>a{
+text-decoration: none;
+width: 300px;
+height: 60px;
+display: block;
+background-color:#2098D1;
+border-radius: 5px;
+margin: 20px 20px 0px 0px;
+text-align: center ;
+line-height: 60px;
+color: #ffffff;
+font-family:Montserrat;
+font-size: 16px;
+margin:20px auto;
+}
+
+.header, .intro, .second{
+	width: 100%;
+}
+.intro{
+	background:url(../images/banner.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+}
+.second{
+	background: url(../images/1.jpg) 50% 0 no-repeat fixed;
+	height: 1300px;
+}
+.third{
+	background: url(../images/3.jpg) 50% 0 no-repeat fixed;
+	height: 650px;
+}
+.hvr-border-fade {
+  transition-duration: 1s;
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+  box-shadow: inset 0 0 0 2px #2098D1, 0 0 1px transparent;
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+.photobox {
+width: 100%;
+height: 500px;
+margin:20px auto 20px auto;
+
+}
+.photobox img{
+  width:250px;
+  height:190px;
+  margin:20px 20px 0px 0px;
+  display: block;
+  border-radius: 5px;
+  float: left;
+}
+.phototext {
+  margin:20px 0px 0px 20px;
+  float:left;
+  }
+
+.phototext p{
+  font-family:Microsoft JhengHei;
+  font-size: 16px;
+}
+
+.videobox {
+  height: 500px;
+  width: 100%;
+  margin:20px auto 20px auto;
+}
+.videobox div{
+  margin: 20px auto;
+  width: 500px;
+
+}
+.videobox iframe{
+  margin:20px 20px 0px 0px;
+  border-radius: 5px;
+  float: left;
+  margin: 20px auto;
+
+}
+.linkbox{
+  height: 500px;
+  width: 100%;
+  margin: 30px auto 30px auto;
+}
+.linkbox img{
+  width: 150px;
+  height: 100px;
+  display: block;
+  float:left;
+  margin: 20px auto;
+
+
+}
+.linkbox p{
+  font-family:Montserrat,Microsoft JhengHei;
+  float:left;
+  margin: 20px 0px 0px 20px;
+}
+
+
+.lifebox {
+  金
+
+
+}
