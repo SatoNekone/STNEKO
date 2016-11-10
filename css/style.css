@@ -292,11 +292,12 @@ margin:20px auto 20px auto;
   font-family:Montserrat,Microsoft JhengHei;
   float:left;
   margin: 20px 0px 0px 20px;
+  font-size: 14px;
 }
 
 
-.lifebox {
-  金
+.linkbox img {
+  border-radius: 5px;
 
 
 }
